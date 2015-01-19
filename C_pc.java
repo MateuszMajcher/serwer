@@ -16,12 +16,12 @@ public C_pc(String nr_seryjny,String data,String model,String producent ,
 	this.moc_zasilacza = moc_zasilacza;
 	}
 
-public C_pc(String dane){
+/*public C_pc(String dane){
 	String[] d = dane.split(",");
-	
+	super(d[0],d[1],d[2],d[3],d[4],d[5],d[6],d[7],d[8],d[9]);
 	this.rodzaj_obudowy = new String(d[0]);
 	this.moc_zasilacza = Integer.parseInt(d[1]);
-	}
+	}*/
 
 	
 	public String toString(){

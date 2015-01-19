@@ -29,6 +29,14 @@ public C_Urzadzenie(String dane){
     this.producent = new String(d[3]);
 }
 
+public String pobierzNrSeryjny() { return this.nr_seryjny; } 
+public String pobierzDate() {return this.data; }
+public String pobierzModel() { return this.model; } 
+public String pobierzProducent() {return this.producent; } 
+void ustawNrSeryjny(String nr_seryjny) { this.nr_seryjny = nr_seryjny; } 
+void ustawDate(String data) { this.data = data; } 
+void ustawModel(String model) { this.model = model; } 
+void ustawProducent(String data) { this.producent = producent; }
 
 public String toString(){
 	return this.nr_seryjny + " " + this.data + " " + this.model + " " + this.producent;
