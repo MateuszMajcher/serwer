@@ -35,6 +35,6 @@ public C_Komputer(String nr_seryjny,String data,String model,String producent ,
 	}
 	
 	public String toString(){
-	return super.toString() + this.ilosc_rdzeni + " " + this.pamiec_ram + " " + "model procesora "+this.model_procesora+" "+ this.taktowanie_rdzenia + " " + this.pamiec_rom +" " + karta_grafiki;
+	return super.toString() + this.ilosc_rdzeni + " " + this.pamiec_ram + " " + " "+this.model_procesora+" "+ this.taktowanie_rdzenia + " " + this.pamiec_rom +" " + karta_grafiki;
 	}
 }
