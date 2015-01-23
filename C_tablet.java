@@ -11,15 +11,15 @@ public C_tablet(){
 	
 public C_tablet(String nr_seryjny,String data,String model,String producent,int ilosc_rdzeni,int pamiec_ram,
                     String model_procesora,double taktowanie_rdzenia,int pamiec_rom,String karta_grafiki,double rozmiar_ekranu,
-                           double akumulator,double rozdz_ekranu){
+                           double akumulator,double rozdz_aparatu){
 	super(nr_seryjny,data,model,producent,ilosc_rdzeni,pamiec_ram,model_procesora,taktowanie_rdzenia,pamiec_rom,karta_grafiki);
 	this.rozmiar_ekranu = rozmiar_ekranu;
 	this.akumulator = akumulator;
-	this.rozdz_aparatu =0.0;
+	this.rozdz_aparatu =rozdz_aparatu;
 	}
 	
 public String toString(){
-	return super.toString() + " "+this.rozmiar_ekranu+" "+this.akumulator+" "+this.rozdz_aparatu;
+	return "Tablet\n"+super.toString() + "\nRozmiar ekranu: "+this.rozmiar_ekranu+"\nAkumulator: "+this.akumulator+"\nRozdzielczosc aparatu: "+this.rozdz_aparatu;
 	}
 
 }

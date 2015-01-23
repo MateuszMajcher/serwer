@@ -1,4 +1,17 @@
-"ax0","11-12-2010","galaxy","samsung",4,1024,"intel",2.4,16,"Radeon"
-"ax0","11-12-2010","dell","dell",4,1024,"intel",2.4,16,"Radeon"
-"ax0","11-12-2010","GTX-540","hp",4,1024,"intel",2.4,16,"Radeon"
-"ax0","11-12-2010","G-580","lenovo",4,1024,"intel",2.4,16,"Radeon"
+pc,ax0v,11-12-2010,E-450,dell,4,2,intel Pentium Dual-Core,2.4,250,amd Radeon HD 7990,tower,500
+pc,z4v34,2-10-2008,GTX-540,hp,8,4,amd Athlon II X3 450,3.0,1000,nVIDIA GeForce GTX 980,all-in-one,750
+pc,ax0,11-12-2010,GTX-540,hp,4,8,intel Core i3,2.4,500,nVIDIA GeForce GTX 780,all-in-one,500
+pc,a4s5a8,30-6-2000,FULL GAMER FX 6x4,dell,4,4,intel Core i3,2.6,500,GeForce GT220,tower,500
+pc,5sd8sd,2-9-2002,XC60,hp,8,8,amd Phenom II X4 965,1.8,250,Radeon HD 5570,all-in-one,750
+pc,7sd5sa,25-12-2014,T4,fujitsu,4,16,intel Core i5,2.0,1000,GeForce GT440,all-in-one,500
+laptop,ax0,11-2-2011,Yoga 3 Pro,lenovo,4,4,intel,2.4,500,Radeon,15.6,2.6,5,realtek
+laptop,z21hu,2-4-2012,NX500JK,asus,2,8,intel,2.4,220,amd Radeon R9 295X2,14.0,3.0,9,intel wifi
+laptop,lt456,22-9-2010,Envy 15z,hp,4,12,intel,2.0,1000,NVIDIA Quadro 5000M,15.6,2.6,5,realtek
+laptop,kx500,8-4-2013,CN212H,asus,8,8,intel,2.8,500,NVIDIA GeForce GTX 780M,14.0,3.0,4,intel wifi
+laptop,z300,1-11-2010,GS60,msi,4,4,intel,3.2,600,amd Radeon HD 6950M,15.6,2.6,6,realtek
+laptop,t210d,6-10-2015,G-580,lenovo,4,1024,intel,2.0,16,Radeon,14.0,3.0,9,intel wifi
+tablet,ee0ff45,2-04-2014,iPad mini,apple,2,1,Apple A7,1.3,32,zintegrowana,7.9,2430,5.0
+tablet,axv345,10-10-2011,Galaxy Tab S,samsung,4,2048,Samsung Exynos 5 ,2.2,64,mali 400,8.4,5000,8.0
+tablet,zz450z,4-22-2014,Google Nexus 7,asus,4,1024,Snapdragon S4 Pro,1.5,16,Tegra K1s,7.0,4400,3.2
+tablet,tt45e3,25-1-2013,Yoga,lenovo,4,2,intel Atom Z3745,1.86,32,Adreno 320,10.1,9600,8.0
+tablet,pp908i,7-9-2014,Xperia Z3,Sony,4,3,Qualcomm Snapdragon 801,1.3,16,aplle,8.0,4500,12.0

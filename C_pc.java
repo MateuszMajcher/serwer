@@ -25,7 +25,7 @@ public C_pc(String nr_seryjny,String data,String model,String producent ,
 
 	
 	public String toString(){
-	return super.toString() +" "+ this.rodzaj_obudowy + " " + this.moc_zasilacza;
+	return "PC\n"+super.toString() +"\nRodzaj obudowy: "+ this.rodzaj_obudowy + "\nMoc zasilacza " + this.moc_zasilacza;
 	}
 
 }
