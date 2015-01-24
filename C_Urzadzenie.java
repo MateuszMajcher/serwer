@@ -55,7 +55,7 @@ public abstract class  C_Urzadzenie{
 	}
 
 	public String toString() {
-		return  "Producent: "+ this.producent + "\nModel: "+this.model + "\nNr seryjny: "+this.nr_seryjny+"\ndata produkcji: "+this.data ;
+		return  "Producent: "+ this.producent + "/Model: "+this.model + "/Nr seryjny: "+this.nr_seryjny+"/data produkcji: " ;
 	}
 
 	

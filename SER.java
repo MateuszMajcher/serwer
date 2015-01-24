@@ -7,7 +7,7 @@ public class SER{
   ServerSocket gniazdoSerwera = new ServerSocket(PORT);
   System.out.println("uruchomiono serwer: "+gniazdoSerwera);
   C_plik plik = new C_plik();
-  System.out.println(plik.znajdz());
+
   
   try{
 	  System.out.println("Oczekiwanie na po³aczenie...");
@@ -18,11 +18,14 @@ public class SER{
 		    in = new BufferedReader(new InputStreamReader(gniazdo.getInputStream()));
 		    out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(gniazdo.getOutputStream())),true);
 		    System.out.println("Otwarto po³aczenie "+gniazdo);
+		    String wynik="";
 		    while(true){
 			    String tekst =in.readLine();
 			    if (tekst.equals("END")) break;
-			    System.out.println("> "+tekst);
-			    out.println(tekst);
+			    /*znajdz_lista szuka arraylist znajdz_tablica w tablicy*/
+			    wynik = plik.znajdz_lista(tekst);
+			    out.println(wynik);
+			  
 			    }
 		    } finally{
 			    System.out.println("Zamykanie...");

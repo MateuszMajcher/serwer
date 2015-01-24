@@ -3,13 +3,16 @@ import java.io.*;
 import java.net.*;
 public class C_plik{
 private BufferedReader infile = null;
+
 private  C_Urzadzenie komputery[];
+List<C_Urzadzenie> lista = new ArrayList<C_Urzadzenie>();
 public C_plik(){
 	try
 		{
   infile = new BufferedReader(new FileReader("dane.txt"));
   komputery = new C_Urzadzenie[17];
-		List<C_Urzadzenie> lista = new ArrayList<C_Urzadzenie>();
+		
+		
 		String s, s2 = new String();
 		int i = 0;
 		while ((s = infile .readLine()) != null) {
@@ -56,21 +59,44 @@ public C_plik(){
 			e.printStackTrace();
 		}	
 }
+public String znajdz_lista(String tekst){
+	String w="";
+for(C_Urzadzenie item: lista){
+if(item.pobierzProducent().equals(tekst)|| item.pobierzModel().equals(tekst)){
+		    w+="/----------------------------------------/";
+		    w+=item.toString();
+		    }
+		    
+			   
+			    
+}
+if (w.equals("")){
+		
+		w="Nic nie znaleziono";
+		}
 
-public String znajdz(){
-	String wynik="";
+	
+	return w;
+	}
+public String znajdz_tablica(String tekst){
+	String s="";
 	for (C_Urzadzenie x:komputery){
-		System.out.println("----------------------------------------");
-		System.out.println(x);
-		/*if(x.pobierzProducent().equals("asus")){
-		    wynik+="\n--------------------------\n";
-		    wynik+=x.toString();}*/
-		   
+		
+		
+		if(x.pobierzProducent().equals(tekst)|| x.pobierzModel().equals(tekst)){
+		    s+="/----------------------------------------/";
+		    s+=x.toString();
+		    }}
+		    
+	if (s.equals("")){
+		s="Nic nie znaleziono";
 		}
 	
+	return s;
 	
-	return wynik;
-	}
+
+
+}
 
 
 }

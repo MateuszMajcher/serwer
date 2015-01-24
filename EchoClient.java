@@ -12,7 +12,7 @@ try {
 	in = new BufferedReader(new InputStreamReader(gniazdo.getInputStream()));
 	out = new PrintWriter(gniazdo.getOutputStream());
 	System.out.println("Nawi¹zano polaczenie z " + gniazdo.getInetAddress());
-	
+	 String thisLine;
 	 while(true){
 		 System.out.print("> ");
 		 String tekst = klawiatura.readLine();
@@ -20,8 +20,14 @@ try {
 		 out.flush();
 		 if (tekst.equals("END"))
 		       break;
-		  System.out.println("echo: "+in.readLine());
-		 }
+		
+		
+
+    System.out.println(in.readLine().replaceAll("/","\n"));
+   
+}
+		
+		 
 	 
 	} catch(IOException e){
 		 System.out.println(e);

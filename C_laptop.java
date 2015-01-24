@@ -22,6 +22,6 @@ public C_laptop(String nr_seryjny,String data,String model,String producent ,
 	}
 
 public String toString(){
-	 return "Laptop\n"+super.toString() + "\nRozmiar ekranu: "+this.rozmiar_ekranu +"\nWaga: "+this.waga+"\nCzas pracy "+this.czas_pracy+"\nKarta sieciowa: "+this.karta_sieciowa;
+	 return "Laptop/"+super.toString() + "/Rozmiar ekranu: "+this.rozmiar_ekranu +"/Waga: "+this.waga+"/Czas pracy "+this.czas_pracy+"/Karta sieciowa: "+this.karta_sieciowa;
 	}
 }

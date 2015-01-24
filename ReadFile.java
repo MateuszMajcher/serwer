@@ -12,6 +12,7 @@ public class ReadFile {
 		/*maks tablica */
 		C_Urzadzenie komputery[] = new C_Urzadzenie[100];
 		List<C_Urzadzenie> lista = new ArrayList<C_Urzadzenie>();
+		
 		String s, s2 = new String();
 		int i = 0;
 		while ((s = in .readLine()) != null) {
@@ -46,6 +47,10 @@ public class ReadFile {
 	             
 		} in .close();
 		
+			Iterator<C_Urzadzenie> iterator = lista.iterator();
+		while (iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
 	
 	}
 }

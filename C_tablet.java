@@ -19,7 +19,7 @@ public C_tablet(String nr_seryjny,String data,String model,String producent,int 
 	}
 	
 public String toString(){
-	return "Tablet\n"+super.toString() + "\nRozmiar ekranu: "+this.rozmiar_ekranu+"\nAkumulator: "+this.akumulator+"\nRozdzielczosc aparatu: "+this.rozdz_aparatu;
+	return "Tablet/"+super.toString() + "/Rozmiar ekranu: "+this.rozmiar_ekranu+"/Akumulator: "+this.akumulator+"/Rozdzielczosc aparatu: "+this.rozdz_aparatu;
 	}
 
 }
