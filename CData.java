@@ -10,13 +10,11 @@ public CData(String data){
 	this.miesiac = Integer.parseInt(d[1]);
 	this.rok = Integer.parseInt(d[2]);
 	}
-public void ustawDate(int d, int m, int r) {}
-public int porownajDaty(CData x) { /* kod metody */return 0; }
-private int roznica(CData y) { /* kod metody */ return 0;}
-public int roznicaDat(CData y) { /* kod metody */return 0; }
-public static int podajRozniceDat(CData d1,CData d2) {
-return d1.roznicaDat(d2);
-}
-public void wyswietlDate() { /* kod metody */ }
+public void ustawDate(int d, int m, int r) {
+	this.dzien = d;
+	this.miesiac = m;
+	this.rok =r;
+	}
+
 public String toString() { return dzien + "/" + miesiac + "/" + rok; }
 }

@@ -41,16 +41,16 @@ public abstract class  C_Urzadzenie{
 	public String pobierzProducent() {
 		return this.producent;
 	}
-	void ustawNrSeryjny(String nr_seryjny) {
+	public void ustawNrSeryjny(String nr_seryjny) {
 		this.nr_seryjny = nr_seryjny;
 	}
-	void ustawDate(String data) {
+	public void ustawDate(String data) {
 		this.data = new CData(data);
 	}
-	void ustawModel(String model) {
+	public void ustawModel(String model) {
 		this.model = model;
 	}
-	void ustawProducent(String data) {
+	public void ustawProducent(String data) {
 		this.producent = producent;
 	}
 
